@@ -1,0 +1,74 @@
+@import '../../design-tokens/tokens.scss';
+#tech2{
+    width: 80vw;
+    margin-left: 20vw;
+    height: 60vh;
+    background-image: linear-gradient($light-pink, $pink);
+}
+
+#square{
+    background-color: $light-grey;
+    text-align: center;
+    
+
+    h3{
+        bottom: 5%;    
+    }
+    img{
+       padding-top: 15%;
+    }  
+
+}
+
+#square1{
+    background-color: $light-grey;
+    text-align: center;
+
+    h3{
+        bottom: 20%;    
+    }
+    img{
+        padding: 5%;
+    }  
+}
+
+.typewriter2{
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    width: 64vw;
+    background-color: $light-grey;
+    padding: 2%;
+}
+
+.typewriter2 h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: $dark;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid $light-pink; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+//   @keyframes backspace {
+//       from {width: 100%}
+//       to {width: 0%}
+//   }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:$light-pink; }
+  }

@@ -1,0 +1,28 @@
+@import '../../design-tokens/tokens.scss';
+
+
+.nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+}
+
+#logo{
+   padding: 8% 0 20% 0;
+   display: block;
+   margin: 0 auto;
+   transition: .5s ease-in;
+
+
+   &:hover{
+       transform: scale(1.2);
+       
+   }
+}
+
+.nav-links-container{
+   text-align: center;
+}

@@ -1,0 +1,26 @@
+@import '/design-tokens/tokens.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section-title{
+    margin: 0 auto;
+    width: 20vw;
+    background-color: white;
+    text-align: center;
+    padding:1%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.section-title h1{
+    color: $dark;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    text-decoration: underline;
+}

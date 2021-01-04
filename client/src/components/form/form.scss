@@ -1,0 +1,45 @@
+@import '../../design-tokens/tokens.scss';
+
+
+form{ 
+    padding: 5%;
+    width: 50%;
+    margin: 0 auto;
+ }
+
+ label{
+     color: $pink;
+     font-size: 1.5rem;
+     font-family: $font-main;
+ }
+
+ button, textarea, input{
+    padding: 2% 1%;
+    margin: 2% 0;
+    width: 100%;
+    border: 1px solid white;   
+    border-radius: 5px;
+ }
+
+ textarea , input {
+     color: $pink;
+     font-family: $font-sub;
+     font-size: 1.2em;
+     letter-spacing: 0.15em;
+     cursor: text;
+     caret-color: $pink;
+ }
+
+ button{
+     font-size: 1.8em;
+     font-weight: 500;
+     font-family: $font-main;
+     background: none;
+     color: white;
+ }
+
+ button:hover{
+     background: white;
+     color: black;
+     cursor: pointer;
+ }

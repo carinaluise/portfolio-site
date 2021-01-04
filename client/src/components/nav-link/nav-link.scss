@@ -1,0 +1,15 @@
+@import '../../design-tokens/tokens.scss';
+
+.nav-link{
+    display: block;
+    padding: 5% 0;
+    color: white;
+    text-decoration: none;
+    transition: .5s ease-in;
+
+    &:hover{
+        font-size: 2rem;
+        
+    }
+}
+

@@ -1,0 +1,16 @@
+@import '../../design-tokens/tokens.scss';
+
+#portfolio{
+    width: 80vw;
+    margin-left: 20vw;
+    
+    padding-top: 5%;
+
+    .portfolio-card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+}
+

@@ -1,0 +1,37 @@
+@import '../../design-tokens/tokens.scss';
+
+.card-container{
+    margin: 5% 3% 0;
+    width: 20vw;
+    height: 60vh;
+    background-color: $light-grey;  
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: .2s ease-in; 
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.card-image-container{
+    height: 50%;
+
+}
+
+.card-content-container{
+    padding: 5%;
+    text-align: center;
+    color: $dark;
+
+}
+
+.card-title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+
+}
+
+.car-information{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
