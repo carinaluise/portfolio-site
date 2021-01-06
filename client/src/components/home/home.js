@@ -10,9 +10,9 @@ return(
         <div className="typewriter">
             <h1>I'm Carina, a freelance web-developer.</h1>
         </div>
-        <div className="orange-box"></div>
-        <div className="purple-box"></div>
-        <div className="blue-box"></div>
+        <div className="square"></div>
+        <div className="triangle"></div>
+        <div className="circle"></div>
     </div>
 );
 }

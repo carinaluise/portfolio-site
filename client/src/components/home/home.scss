@@ -9,7 +9,7 @@
 }
 
 
-.orange-box{
+.square{
     position: absolute;
     top: 28%;
     left: 30%;
@@ -20,7 +20,7 @@
     z-index: -1;
   }
 
-.purple-box{
+.triangle{
   position: absolute;
   top: 10%;
   left: 63%;
@@ -31,7 +31,7 @@
   border-bottom: 39.5vh solid $pink;
 }
 
-.blue-box{
+.circle{
   position: absolute;
   top: 20%;
   left: 55%;

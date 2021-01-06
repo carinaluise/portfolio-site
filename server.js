@@ -38,17 +38,8 @@ app.use(
 
 
 
-// app.route('/success')
-//  .get((req, res) => {
-//   res.sendFile(path.join(__dirname + '/public/pages/success.html'));
-// });
 
-// app.route('/error')
-//  .get((req, res) => {
-//   res.sendFile(path.join(__dirname + '/public/pages/error.html'));
-// });
-
-app.route('/submit')
+app.route('/')
   .post([body('email').isEmail()],(req,res) => {
     const errors = validationResult(req);
     const email = req.body.email
@@ -87,20 +78,20 @@ app.route('/submit')
       };
 
     if (!errors.isEmpty()) {
-    //    res.sendFile(path.join(__dirname + '/public/pages/error.html'))
+
     console.log(error)
 
     } else {
       transport.sendMail(mailOptions, function(error, info){
         
         if(error){
-          res.status(401).send(error);
           
+          res.status(400).send({message: "failed"})
 
         }else{
-          res.status(200).send({ message: 'user created' });
-      
-          
+        
+          res.status(200).send({message: "success"})
+
         };
     });
     }
