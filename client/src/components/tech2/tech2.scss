@@ -1,12 +1,50 @@
 @import '../../design-tokens/tokens.scss';
+
+@media screen and (max-width: 800px){
+    #tech2{
+      width: 100vw;
+      height: 85vh;
+    }
+    .typewriter2{
+        top: 5%;
+        margin: 5% auto;
+        width: 80vw;
+        
+    }
+
+    .title-large-screen{
+        display:none;
+    }
+
+    .title-small-screen{
+        display: block;
+    }
+  }
+  
+  @media screen and (min-width: 801px){
+    #tech2{
+      margin-left: 20vw;
+      width: 80vw;
+      height: 60vh;
+    }
+    .typewriter2{
+        top: 10%;
+        width: 64vw;
+        margin: 0 auto;
+        
+    }
+  }
+
+
+
 #tech2{
-    width: 80vw;
-    margin-left: 20vw;
-    height: 60vh;
+   
+    
     background-image: linear-gradient($light-pink, $pink);
 }
 
 #square{
+    z-index: +1;
     background-color: $light-grey;
     text-align: center;
     
@@ -25,7 +63,7 @@
     text-align: center;
 
     h3{
-        bottom: 20%;    
+        bottom: 15%;    
     }
     img{
         padding: 5%;
@@ -34,9 +72,6 @@
 
 .typewriter2{
     position: relative;
-    top: 10%;
-    margin: 0 auto;
-    width: 64vw;
     background-color: $light-grey;
     padding: 2%;
 }

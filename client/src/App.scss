@@ -9,9 +9,21 @@ html{
     scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 795px){
+    .section-title{width: 53vw;}
+   
+}
+
+@media screen and (min-width: 796px ) and (max-width: 1300px){
+    .section-title{width: 30vw;}
+}
+
+@media screen and (min-width: 1301px){
+    .section-title{width: 18vw;}
+}
+
 .section-title{
-    margin: 0 auto;
-    width: 20vw;
+    margin: 7% auto;
     background-color: white;
     text-align: center;
     padding:1%;

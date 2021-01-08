@@ -1,24 +1,58 @@
 @import '../../design-tokens/tokens.scss';
 
 
+@media screen and (max-width: 800px){
+    .nav-container {
+        background-color: none;
+        width: 20vw;
+        
+    }
+    .closed{
+        display: none;
+    }
+    .active{
+        display: block;
+
+    }
+    .icon-black{
+        display: block;
+    }
+    .icon-white{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .nav-container {
+        background-color: black;
+        height: 110vh;
+        width: 20vw;  
+    }
+    .icon-black{
+        display: none;
+    }
+    .icon-white{
+        display: block;
+    }
+}
+
 .nav-container {
     position: fixed;
     left: 0;
     top: 0;
-    height: 100vh;
-    width: 20vw;
-    background-color: black;
+ 
 }
 
-#logo{
+.icon-white , .icon-black{
+    text-align: center;
    padding: 8% 0 20% 0;
-   display: block;
    margin: 0 auto;
    transition: .5s ease-in;
 
 
    &:hover{
        transform: scale(1.2);
+       cursor: pointer;
        
    }
 }

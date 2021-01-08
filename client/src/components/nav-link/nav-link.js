@@ -4,10 +4,8 @@ import './nav-link.scss'
 
 const NavLink = (props) => {
 
-return ( <a className="nav-link" href={props.link}>{props.linkName}</a>)
+return ( <a className={`nav-link ${props.class}`} href={props.link}>{props.linkName}</a>)
      
-    
-
 }
 
 export default NavLink;

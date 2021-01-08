@@ -8,25 +8,25 @@ const Portfolio = () => {
     <div className="section-title"><h1>Projects</h1></div>
     <div className="portfolio-card-container">
         <Card 
-        link="https://green-for-growth.herokuapp.com/"
-        title="Green for growth"
-        information=""
-        src="../../../green-for-growth-500.png"
+        link="https://shop-of-strings.herokuapp.com/"
+        title="Shop of Strings"
+        information="Full E-Commerce website selling all things string."
+        src="../../../shop-of-strings-500.png"
         alt="coding"
         >       
         </Card>
         <Card 
-        link="https://shop-of-strings.herokuapp.com/"
-        title="Shop of Strings"
-        information=""
-        src="../../../shop-of-strings-500.png"
+        link="https://green-for-growth.herokuapp.com/"
+        title="Green for growth"
+        information="A vegan's dream. Search for yum recipes to cook tonight."
+        src="../../../green-for-growth-500.png"
         alt="coding"
         >       
         </Card>
         <Card
         link="https://online-journal-lts.herokuapp.com/"
         title="Journal App"
-        information=""
+        information="An app to journal out your thoughts and feelings."
         src="../../../journal-500.png"
         alt="coding"
         >       
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <Card 
         link="https://tindog-example.herokuapp.com/"
         title="Tindog"
-        information="Design example"
+        information="A website design example for a doggy dating app."
         src="../../../tindog-500.png"
         alt="coding"
         >       
@@ -42,7 +42,7 @@ const Portfolio = () => {
         <Card 
         link="https://carinaluise.github.io/3D_Card/"
         title="3D Card"
-        information=""
+        information="3D design work for cards."
         src="../../../3D-Card-500.png"
         alt="coding"
         >       
@@ -50,7 +50,7 @@ const Portfolio = () => {
         <Card 
         link="https://carinaluise.github.io/monsters-app/"
         title="Monsters Roledex"
-        information=""
+        information="Search through the monsters API to find different characters."
         src="../../../monsters-roledex-500.png"
         alt="coding"
         >       

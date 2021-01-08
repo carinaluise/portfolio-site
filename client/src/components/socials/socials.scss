@@ -1,19 +1,16 @@
 @import '../../design-tokens/tokens.scss';
 
-.socials{
 
-    display: flex; 
-    justify-content: center;
 
-        i{
-        padding: 5%;
-        font-size: 5em;
-        color: $dark;
-
-        &:hover{
-            cursor: pointer;
-            color: $light-grey;
-        }
+.social{
+padding: 5%;
+font-size: 5em;
+color: $dark;
+    &:hover{
+        cursor: pointer;
+        color: white;
     }
 }
+    
+
 

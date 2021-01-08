@@ -1,9 +1,39 @@
 @import '../../design-tokens/tokens.scss';
 
+@media screen and (max-width: 800px){
+    .card-container{
+        margin: 10% 3% 5%;
+        width: 55vw;
+        max-height: 60vh;
+    }
+    .card-content-container{
+        padding: 15% 5%;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px){
+        .card-container{
+            margin: 7% 3% 5%;
+            width: 30vw;
+            height: 60vh;
+        }
+        // .card-content-container{
+        //     // padding: -10% 5%;
+        // }
+}
+
+@media screen and (min-width: 1301px){
+    .card-container{
+        margin: 5% 3% 0;
+        width: 20vw;
+        height: 60vh;
+    }
+    .card-content-container{
+        padding: 5%;
+    }
+}
+
 .card-container{
-    margin: 5% 3% 0;
-    width: 20vw;
-    height: 60vh;
     background-color: white;  
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: .2s ease-in; 
@@ -16,18 +46,18 @@
 }
 
 .card-image-container{
-    height: 50%;
+    height: 35%;
 
     img{
         padding: 2.5%;
-        width: 95%;
-        height: 92%;
+        max-width: 95%;
+        height: auto;
     }
 
 }
 
 .card-content-container{
-    padding: 5%;
+    
     text-align: center;
     color: $dark;
 

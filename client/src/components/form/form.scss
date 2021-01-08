@@ -31,16 +31,17 @@ form{
  }
 
  button{
+     
      font-size: 1.8em;
      font-weight: 500;
      font-family: $font-main;
      background: none;
-     color: white;
+     color: $pink;
  }
 
  button:hover{
-     background: white;
-     color: black;
+     background: $pink;
+     color: white;
      cursor: pointer;
  }
 

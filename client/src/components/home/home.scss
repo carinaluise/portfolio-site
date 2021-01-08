@@ -1,10 +1,21 @@
 @import '../../design-tokens/tokens.scss';
 
+@media screen and (max-width: 800px){
+  #home{
+    width: 100vw;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 801px){
+  #home{
+    margin-left: 20vw;
+    width: 80vw;
+  }
+}
 
 #home{
     height: 100vh;
-    width: 80vw;
-    margin-left: 20vw;
     padding-bottom: 5%;
 }
 

@@ -1,7 +1,27 @@
 @import '../../design-tokens/tokens.scss';
 
+
+@media screen and (max-width: 800px){
+    #contact{
+      width: 100vw;
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (min-width: 801px){
+    #contact{
+      margin-left: 20vw;
+      width: 80vw;
+    }
+  }
+
 #contact{
-    width: 80vw;
-    margin-left: 20vw;
-    background-color: salmon;
+    background-color: $light-grey;
+}
+
+.socials{
+
+        display: flex; 
+        justify-content: center;
+       
 }
