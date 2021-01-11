@@ -17,7 +17,7 @@ const Tech = () => {
         <div className="shape" id="circle"><img src="../../../sass.png"></img><h3>Sass</h3></div>
         <div className="shape" id="circle"><img src="../../../github.png"></img><h3>Github</h3></div>
 
-        <div className="shape" id="circle"><img src="../../../mongoose.png"></img><h3>Mongoose</h3></div>
+        {/* <div className="shape" id="circle"><img src="../../../mongoose.png"></img><h3>Mongoose</h3></div> */}
         <div className="shape" id="circle"><img src="../../../api.png"></img><h3>Api</h3></div>
         <div className="shape" id="circle"><img src="../../../terminal.png"></img><h3>Hyper</h3></div>
         <div className="shape" id="circle"><img src="../../../mongodb.png"></img><h3>MongoDb</h3></div>

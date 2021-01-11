@@ -1,0 +1,26 @@
+@import '../../design-tokens/tokens.scss';
+
+
+    .type-container h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: $dark;
+    // overflow: hidden; /* Ensures the content is not revealed until the animation */
+    // white-space: nowrap; /* Keeps the content on a single line */
+    // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .12em; /* Adjust as needed */
+
+  }
+
+  #cursor {
+    border-left: .12em solid $light-pink;
+    animation: blink .75s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

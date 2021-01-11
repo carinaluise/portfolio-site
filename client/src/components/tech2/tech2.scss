@@ -3,15 +3,44 @@
 @media screen and (max-width: 800px){
     #tech2{
       width: 100vw;
-      height: 85vh;
-    }
-    .typewriter2{
-        top: 5%;
-        margin: 5% auto;
-        width: 80vw;
-        
-    }
+      height: 80%;
 
+      .shapes-container{
+        padding: 5% 0;
+      }
+      .typewriter{
+        top: 50px;
+        margin: 5% auto;
+        width: 80%;      
+      }
+      .title-large-screen{
+        display:none;
+      }
+      .title-small-screen{
+      display: block;
+      }
+  }
+}
+
+  @media screen and (max-width: 1350px) and (min-width: 801px){
+    #tech2{
+        margin-left: 20vw;
+        width: 80vw;
+        height: 70%;
+
+        .shapes-container{
+            padding-top: 5%;
+
+        }
+
+        .typewriter{
+          top: 50px;
+          margin: 5% auto;
+          width: 70%; 
+      }
+      }
+
+    
     .title-large-screen{
         display:none;
     }
@@ -21,89 +50,69 @@
     }
   }
   
-  @media screen and (min-width: 801px){
+  @media screen and (min-width: 1350px){
     #tech2{
       margin-left: 20vw;
       width: 80vw;
       height: 60vh;
+
+      .shapes-container{
+        padding-top: 5%;
     }
-    .typewriter2{
-        top: 10%;
-        width: 64vw;
-        margin: 0 auto;
-        
+
+    .typewriter{
+      top: 10%;
+      width:70%;
+      margin: 0 auto;
+      
+  }
+    }
+    
+    .title-large-screen{
+        display: block;
+    }
+    .title-small-screen{
+        display: none;
     }
   }
 
 
 
 #tech2{
-   
-    
     background-image: linear-gradient($light-pink, $pink);
+
+    .typewriter{
+      position: relative;
+      background-color: $light-grey;
+      padding: 2%;
+  }
 }
 
 #square{
     z-index: +1;
     background-color: $light-grey;
     text-align: center;
-    
+
+    @media screen and (min-width: 730px) and (max-width: 1007px){
+        width: 20vw;
+        height: 20vw;
+    }
+
+    @media screen and (min-width: 1007px) and (max-width: 1200px){
+        width: 15vw;
+        height: 15vw;
+    }
 
     h3{
-        bottom: 5%;    
+     
+        bottom: 5%;
+            
     }
     img{
        padding-top: 15%;
-    }  
+    } 
 
 }
 
-#square1{
-    background-color: $light-grey;
-    text-align: center;
 
-    h3{
-        bottom: 15%;    
-    }
-    img{
-        padding: 5%;
-    }  
-}
 
-.typewriter2{
-    position: relative;
-    background-color: $light-grey;
-    padding: 2%;
-}
-
-.typewriter2 h1 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    color: $dark;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid $light-pink; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-
-//   @keyframes backspace {
-//       from {width: 100%}
-//       to {width: 0%}
-//   }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color:$light-pink; }
-  }

@@ -10,10 +10,79 @@
         z-index: +1;
         width: 30vw;
         height: 30vw;
+
+        h3{
+            bottom: 8%;
+        }
     }
+    #circle img{
+        padding: 15% 24% 0;
+      }
   }
   
-  @media screen and (min-width: 801px){
+  @media screen and (min-width: 801px) and (max-width: 1120px){
+    #tech{
+      margin-left: 20vw;
+      width: 80vw;
+    }
+
+    .shape{
+        width: 15vw;
+        height: 15vw;
+
+        h3{
+            bottom: 20%;
+        }
+    }
+
+    #circle img{
+        padding: 15% 24% 5%;
+      }
+  }
+
+  @media screen and (min-width: 1119px) and (max-width: 1250px){
+    #tech{
+      margin-left: 20vw;
+      width: 80vw;
+    }
+
+    .shape{
+        width: 12vw;
+        height: 12vw;
+
+        h3{
+            bottom: 15%;
+            font-size: 1rem;
+        }
+    }
+    #circle img{
+        padding: 10% 24% 2%;
+      }
+  }
+
+  @media screen and (min-width: 1251px) and (max-width: 1399px){
+    #tech{
+      margin-left: 20vw;
+      width: 80vw;
+    }
+
+    .shape{
+        width: 12vw;
+        height: 12vw;
+
+        h3{
+            bottom: 15%;
+            font-size: 1rem;
+        }
+    }
+    #circle img{
+        padding: 10% 24% 2%;
+      }
+  }
+
+
+
+  @media screen and (min-width: 1400px){
     #tech{
       margin-left: 20vw;
       width: 80vw;
@@ -22,19 +91,25 @@
     .shape{
         width: 10vw;
         height: 10vw;
+
+        h3{
+            bottom: 10%;
+        }
     }
+    #circle img{
+        padding: 15% 24% 2%;
+      }
   }
 
 #tech{
     
     background-color: white;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .shapes-container{
     display: flex;
     justify-content: space-evenly;
-    padding: 5% 0;
     flex-wrap: wrap ;
     
 }
@@ -54,7 +129,6 @@
         letter-spacing: 0.2em;
         color: $pink; 
         position: relative;
-        bottom: 22%;
     } 
 
     transition: .2s ease-in;
@@ -71,10 +145,7 @@
       h3{
           padding-left: 5%;
         }
-      img{
-          padding: 15% 24%;
-         
-        }
+      
 }
 
 // #square, #square2, #square3, #square4 {  
