@@ -1,5 +1,6 @@
 @import '../../design-tokens/tokens.scss';
 
+
 @media screen and (max-width: 800px){
     .card-container{
         margin: 10% 3% 5%;
@@ -7,29 +8,40 @@
         max-height: 60vh;
     }
     .card-content-container{
-        padding: 15% 5%;
+        padding: 10% 5%;
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1300px){
+@media screen and (min-width: 801px) and (max-width: 1150px){
+    .card-container{
+        margin: 7% 3% 5%;
+        width: 30vw;
+        height: 60vh;
+    }
+    .card-content-container{
+        padding: 15%;
+    }
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1500px){
         .card-container{
             margin: 7% 3% 5%;
             width: 30vw;
             height: 60vh;
         }
         .card-content-container{
-            padding: 5%;
+            padding: 10%;
         }
 }
 
-@media screen and (min-width: 1301px){
+@media screen and (min-width: 1501px){
     .card-container{
         margin: 5% 3% 0;
         width: 20vw;
         height: 60vh;
     }
     .card-content-container{
-        padding: 5%;
+        padding: 20%;
     }
 }
 
@@ -64,12 +76,28 @@
 }
 
 .card-title{
+
+
+    @media screen and (max-height: 641px){
+        font-size: 2rem;
+    }
+
+    @media screen and (min-height: 642px){
+        font-size: 3rem;
+    }
     font-family: 'Amatic SC', cursive;
-    font-size: 3rem;
+    
 
 }
 
-.car-information{
+.card-information{
+    @media screen and (max-height: 641px){
+        font-size: 0.8rem;
+    }
+
+    @media screen and (min-height: 642px){
+        font-size: 1rem;
+    }
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
 }

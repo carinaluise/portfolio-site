@@ -1,12 +1,12 @@
 @import '../../design-tokens/tokens.scss';
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1500px){
     #portfolio{
       width: 100vw;
       margin-left: 0;
     }
   }
   
-  @media screen and (min-width: 801px){
+  @media screen and (min-width: 1501px){
     #portfolio{
       margin-left: 20vw;
       width: 80vw;
@@ -15,7 +15,7 @@
 
 
 #portfolio{
-    background-color: white;
+    background-color: $grey;
     padding-top: 5%;
 
     .portfolio-card-container{

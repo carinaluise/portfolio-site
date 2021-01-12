@@ -22,8 +22,8 @@
   
   @media screen and (min-width: 801px) and (max-width: 1120px){
     #tech{
-      margin-left: 20vw;
-      width: 80vw;
+      width: 100vw;
+      margin-left: 0;
     }
 
     .shape{
@@ -42,8 +42,8 @@
 
   @media screen and (min-width: 1119px) and (max-width: 1250px){
     #tech{
-      margin-left: 20vw;
-      width: 80vw;
+      width: 100vw;
+      margin-left: 0;
     }
 
     .shape{
@@ -60,10 +60,10 @@
       }
   }
 
-  @media screen and (min-width: 1251px) and (max-width: 1399px){
+  @media screen and (min-width: 1251px) and (max-width: 1500px){
     #tech{
-      margin-left: 20vw;
-      width: 80vw;
+     
+      width: 100vw;
     }
 
     .shape{
@@ -82,7 +82,7 @@
 
 
 
-  @media screen and (min-width: 1400px){
+  @media screen and (min-width: 1501px){
     #tech{
       margin-left: 20vw;
       width: 80vw;
@@ -103,7 +103,7 @@
 
 #tech{
     
-    background-color: white;
+    background-color: $light-grey;
     padding-top: 5%;
 }
 
@@ -124,6 +124,10 @@
         width: 50%;
     }
     h3{
+      @media screen and (max-height: 812px){
+        font-size: 0.8rem;
+      }
+  
         font-family: 'Oswald', sans-serif;
         font-weight: 200;
         letter-spacing: 0.2em;

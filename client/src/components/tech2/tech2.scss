@@ -22,10 +22,9 @@
   }
 }
 
-  @media screen and (max-width: 1350px) and (min-width: 801px){
+  @media screen and (max-width: 1500px) and (min-width: 801px){
     #tech2{
-        margin-left: 20vw;
-        width: 80vw;
+      width: 100vw;
         height: 70%;
 
         .shapes-container{
@@ -50,10 +49,11 @@
     }
   }
   
-  @media screen and (min-width: 1350px){
+  @media screen and (min-width: 1501px){
     #tech2{
+      
       margin-left: 20vw;
-      width: 80vw;
+        width: 80vw;
       height: 60vh;
 
       .shapes-container{
@@ -89,6 +89,9 @@
 }
 
 #square{
+  @media screen and (max-height: 812px){
+    margin-top: 10%;
+  }
     z-index: +1;
     background-color: $light-grey;
     text-align: center;

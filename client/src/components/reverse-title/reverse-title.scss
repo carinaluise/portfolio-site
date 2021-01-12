@@ -2,10 +2,21 @@
 
 
     .type-container h1 {
+
+
+
+  @media screen and (max-height: 812px){
+      font-size: 2rem;
+  }
+
+  @media screen and (min-height: 813px){
+      font-size: 3rem;
+  }
+
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    font-size: 3rem;
+  
     color: $dark;
     // overflow: hidden; /* Ensures the content is not revealed until the animation */
     // white-space: nowrap; /* Keeps the content on a single line */

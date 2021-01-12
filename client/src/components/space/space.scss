@@ -1,13 +1,13 @@
 @import '../../design-tokens/tokens.scss';
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1500px){
     #space{
       width: 100vw;
       margin-left: 0;
     }
   }
   
-  @media screen and (min-width: 801px){
+  @media screen and (min-width: 1501px){
     #space{
       margin-left: 20vw;
       width: 80vw;

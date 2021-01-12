@@ -21,6 +21,7 @@ return(
         <div className="square"></div>
         <div className="triangle"></div>
         <div className="circle"></div>
+        <img className="arrow" src="../../../right-drawn-arrow.png"></img>
     </div>
 );
 }
