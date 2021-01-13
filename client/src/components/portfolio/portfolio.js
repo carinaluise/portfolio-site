@@ -16,6 +16,7 @@ const Portfolio = () => {
         >       
         </Card>
         <Card 
+        // light
         link="https://green-for-growth.herokuapp.com/"
         title="Green for growth"
         information="A vegan's dream. Search for yum recipes to cook tonight."
@@ -24,6 +25,7 @@ const Portfolio = () => {
         >       
         </Card>
         <Card
+       
         link="https://online-journal-lts.herokuapp.com/"
         title="Journal App"
         information="An app to journal out your thoughts and feelings."
@@ -32,7 +34,7 @@ const Portfolio = () => {
         >       
         </Card>
         <Card 
-        link="https://tindog-example.herokuapp.com/"
+        link="https://carinaluise.github.io/tindog/"
         title="Tindog"
         information="A website design example for a doggy dating app."
         src="../../../tindog-500.png"
@@ -40,6 +42,7 @@ const Portfolio = () => {
         >       
         </Card>
         <Card 
+        // light
         link="https://carinaluise.github.io/3D_Card/"
         title="3D Card"
         information="3D design work for cards."

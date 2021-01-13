@@ -2,7 +2,7 @@
 
 
 @media screen and (max-width: 800px){
-    .card-container{
+    .card-container, .light-container{
         margin: 10% 3% 5%;
         width: 55vw;
         max-height: 60vh;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 801px) and (max-width: 1150px){
-    .card-container{
+    .card-container, .light-container{
         margin: 7% 3% 5%;
         width: 30vw;
         height: 60vh;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 1151px) and (max-width: 1500px){
-        .card-container{
+        .card-container, .light-container{
             margin: 7% 3% 5%;
             width: 30vw;
             height: 60vh;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (min-width: 1501px){
-    .card-container{
+    .card-container, .light-container{
         margin: 5% 3% 0;
         width: 20vw;
         height: 60vh;
@@ -45,8 +45,20 @@
     }
 }
 
+.light-container{
+    background-color: $light-grey;  
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: .2s ease-in; 
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    a{text-decoration: none;}
+}
+
 .card-container{
-    background-color: white;  
+    background: linear-gradient(45deg #F8F4E3, #2A2B2A );
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: .2s ease-in; 
 
@@ -64,6 +76,7 @@
         padding: 2.5%;
         max-width: 95%;
         height: auto;
+        opacity: 0.8;
     }
 
 }
@@ -71,7 +84,7 @@
 .card-content-container{
     
     text-align: center;
-    color: $dark;
+    color: $grey;
 
 }
 
@@ -96,7 +109,7 @@
     }
 
     @media screen and (min-height: 642px){
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     font-family: 'Oswald', sans-serif;
     font-weight: 200;

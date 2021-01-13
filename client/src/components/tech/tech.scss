@@ -103,7 +103,8 @@
 
 #tech{
     
-    background-color: $light-grey;
+  background: linear-gradient(0deg, rgba(248, 244, 227, 0.5), rgba(248, 244, 227, 0.5)), url("../../practise.jpg");
+
     padding-top: 5%;
 }
 
@@ -143,7 +144,7 @@
 }
 
 #circle{
-        background-color: white;
+        // background-color: $dark;
         border-radius: 50%;
         text-align: center;
       h3{

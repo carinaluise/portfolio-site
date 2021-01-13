@@ -8,7 +8,8 @@ import Social from '../socials/socials';
 
 const Contact = () => {
     return(<div id="contact">
-    
+        <div className="section-title contact-title"><h1>Get in touch!</h1></div>
+
     <Form></Form>
     <div className="socials">
         <Social 

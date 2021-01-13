@@ -2,10 +2,10 @@ import React from 'react';
 import './card.scss';
 
 const Card = (props) => {
-    const {link, src, alt, title, information} = props;
+    const {light, link, src, alt, title, information} = props;
 
 return(
-    <div className="card-container">
+    <div className={light ? "light-container" : "card-container"}>
     <a href={link}>
         <div className="card-image-container">
             <img src={src} alt={alt}></img>

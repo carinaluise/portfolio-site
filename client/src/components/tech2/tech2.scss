@@ -9,7 +9,7 @@
         padding: 5% 0;
       }
       .typewriter{
-        top: 50px;
+        // top: 50px;
         margin: 5% auto;
         width: 80%;      
       }
@@ -28,12 +28,12 @@
         height: 70%;
 
         .shapes-container{
-            padding-top: 5%;
+           padding-bottom: 2%;
 
         }
 
         .typewriter{
-          top: 50px;
+          // top: 50px;
           margin: 5% auto;
           width: 70%; 
       }
@@ -57,7 +57,7 @@
       height: 60vh;
 
       .shapes-container{
-        padding-top: 5%;
+        padding-top: 2%;
     }
 
     .typewriter{
@@ -79,12 +79,13 @@
 
 
 #tech2{
-    background-image: linear-gradient($light-pink, $pink);
+  background: linear-gradient(rgba(250, 128, 114,0.8), $pink), url("../../practise.jpg");
+padding: 5% 0 ;
 
     .typewriter{
       position: relative;
-      background-color: $light-grey;
-      padding: 2%;
+      // background-color: $light-grey;
+      padding: 1%;
   }
 }
 
@@ -93,7 +94,8 @@
     margin-top: 10%;
   }
     z-index: +1;
-    background-color: $light-grey;
+    // background-color: $dark;
+   
     text-align: center;
 
     @media screen and (min-width: 730px) and (max-width: 1007px){
@@ -107,7 +109,7 @@
     }
 
     h3{
-     
+      color: $dark;
         bottom: 5%;
             
     }

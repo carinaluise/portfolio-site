@@ -15,8 +15,8 @@
 
 
 #portfolio{
-    background-color: $grey;
-    padding-top: 5%;
+  background: linear-gradient(0deg, rgba(248, 244, 227, 0.5), rgba(248, 244, 227, 0.5)), url("../../practise.jpg");
+  padding-top: 5%;
 
     .portfolio-card-container{
         display: flex;
