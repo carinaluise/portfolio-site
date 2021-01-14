@@ -129,15 +129,15 @@ padding: 5% 0 ;
    
     text-align: center;
 
-    @media screen and (min-width: 730px) and (max-width: 1007px){
-        width: 20vw;
+    @media screen and (min-width: 800px){
+        width: 15vw;
         height: 20vw;
     }
 
-    @media screen and (min-width: 1007px) and (max-width: 1200px){
-        width: 15vw;
-        height: 15vw;
-    }
+    // @media screen and (min-width: 1200px){
+    //     width: 15vw;
+    //     height: 15vw;
+    // }
 
     h3{
       color: $dark;
