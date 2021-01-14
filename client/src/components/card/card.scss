@@ -15,28 +15,29 @@
 }
 
 // @media screen and (min-width: 801px) and (max-width: 1150px){
-    @media screen and (max-width: 800px) and (min-width: 601px){
+    // @media screen and (max-width: 800px) and (min-width: 601px){
+    @media screen and (max-width: 1019px) and (min-width: 601px){
     .card-container, .light-container{
         margin: 7% 3% 5%;
         width: 30vw;
         height: 60vh;
     }
     .card-content-container{
-        padding: 15%;
+        padding: 5%;
     }
 }
 
 // @media screen and (min-width: 1151px) and (max-width: 1500px){
-    @media screen and (min-width: 801px) and (max-width: 1019px){
-        .card-container, .light-container{
-            margin: 7% 3% 5%;
-            width: 30vw;
-            height: 60vh;
-        }
-        .card-content-container{
-            padding: 10%;
-        }
-}
+//     @media screen and (min-width: 801px) and (max-width: 1019px){
+//         .card-container, .light-container{
+//             margin: 7% 3% 5%;
+//             width: 30vw;
+//             height: 60vh;
+//         }
+//         .card-content-container{
+//             padding: 10%;
+//         }
+// }
 
 // @media screen and (min-width: 1501px){
     @media screen and (min-width: 1020px){
@@ -46,7 +47,7 @@
         height: 60vh;
     }
     .card-content-container{
-        padding: 20%;
+        padding: 10%;
     }
 }
 
@@ -97,11 +98,11 @@
 
 
     @media screen and (max-height: 641px){
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     @media screen and (min-height: 642px){
-        font-size: 3rem;
+        font-size: 2rem;
     }
     font-family: 'Amatic SC', cursive;
     
@@ -110,11 +111,11 @@
 
 .card-information{
     @media screen and (max-height: 641px){
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     @media screen and (min-height: 642px){
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
