@@ -50,14 +50,14 @@ const Portfolio = () => {
         alt="coding"
         >       
         </Card>
-        <Card 
+        {/* <Card 
         link="https://carinaluise.github.io/monsters-app/"
         title="Monsters Roledex"
         information="Search through the monsters API to find different characters."
         src="../../../monsters-roledex-500.png"
         alt="coding"
         >       
-        </Card>   
+        </Card>    */}
     </div>
     </div>);
 }

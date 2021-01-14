@@ -21,8 +21,8 @@ const Contact = () => {
         classN="fa-facebook-f"
         ></Social>
         <Social 
-        link=""
-        classN="fa-twitter"
+        link="https://github.com/carinaluise"
+        classN="fa-github"
         ></Social>
     </div>
     
