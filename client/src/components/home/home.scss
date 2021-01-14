@@ -2,7 +2,8 @@
 
 
  //PHONE
-@media (max-width: 650px){
+// @media screen and (max-width: 650px){
+  @media screen and (max-width: 500px){
   #home{
     width: 100vw;
     
@@ -59,7 +60,8 @@
 }
 
 // IPAD 
-@media (max-width: 1500px) and (min-width: 651px){
+// @media screen and (max-width: 1500px) and (min-width: 651px){
+  @media screen and (max-width: 600px) and (min-width: 501px){
   #home{
     width: 100vw;
     background-color: $light-grey;
@@ -115,7 +117,8 @@
   }
 }
 
-@media (min-width: 1501px) and (max-width: 1800px){
+// @media screen and (min-width: 1501px) and (max-width: 1800px){
+@media screen and (min-width: 601px) and (max-width: 869px){
   #home{
     margin-left: 20vw;
     width: 80vw;
@@ -162,7 +165,8 @@
 
 
 // LAPTOP
-@media  (min-width: 1801px){
+// @media screen and (min-width: 1801px){
+@media screen and (min-width: 870px){
   #home{
     margin-left: 20vw;
     width: 80vw;
