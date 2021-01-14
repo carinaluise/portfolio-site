@@ -37,8 +37,6 @@ app.use(
 );
 
 
-
-
 app.route('/')
   .post([body('email').isEmail()],(req,res) => {
     const errors = validationResult(req);
