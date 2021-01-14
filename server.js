@@ -29,15 +29,10 @@ if (process.env.NODE_ENV === 'production'){
   })
 }
 
-app.use(
-  cors({
-    origin: 'http://localhost:3000',
-    credentials: true,
-  })
-);
+app.use(cors());
 
 
-app.route('/')
+app.route('/form')
   .post([body('email').isEmail()],(req,res) => {
     const errors = validationResult(req);
     const email = req.body.email

@@ -32,7 +32,7 @@ class Form extends React.Component{
         };
 
         axios
-            .post('http://localhost:5000/', data)
+            .post('/form', data)
             .then((res) => {
                 
                 this.setState({result: "success"})
