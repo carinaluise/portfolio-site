@@ -1,8 +1,12 @@
 {
-  "name": "personal-site",
+  "name": "personal-site-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines" : {
+    "node" : "",
+    "npm" : ""
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
@@ -28,7 +32,12 @@
     "express": "^4.17.1",
     "express-validator": "^6.9.1",
     "googleapis": "^66.0.0",
+    "node" : "",
     "nodemailer": "^6.4.17",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.19.4"
   }
 }
