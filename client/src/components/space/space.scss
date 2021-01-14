@@ -1,7 +1,7 @@
 @import '../../design-tokens/tokens.scss';
 
 // @media screen and (max-width: 1500px){
-@media screen and (max-width: 1019px){
+@media screen and (max-width: 800px){
     #space{
       width: 100vw;
       margin-left: 0;
@@ -9,7 +9,7 @@
   }
   
   // @media screen and (min-width: 1501px){
-  @media screen and (min-width: 1020px){
+  @media screen and (min-width: 801px){
     #space{
       margin-left: 20vw;
       width: 80vw;
