@@ -1,7 +1,8 @@
 @import '../../design-tokens/tokens.scss';
 
 
-@media screen and (max-width: 1500px){
+// @media screen and (max-width: 1500px){
+@media screen and (max-width: 1019px){
     .nav-container {
         background-color: none;
         width: 20vw;
@@ -24,7 +25,8 @@
     }
 }
 
-@media screen and (min-width: 1501px){
+// @media screen and (min-width: 1501px){
+@media screen and (min-width: 1020px){
     .nav-container {
         background-color: black;
         height: 110vh;

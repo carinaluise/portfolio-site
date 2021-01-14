@@ -1,13 +1,15 @@
 @import '../../design-tokens/tokens.scss';
 
-@media screen and (max-width: 1500px){
+// @media screen and (max-width: 1500px){
+@media screen and (max-width: 1019px){
     .nav-link {
         color: black;
         padding: 5% 0;
     }
 }
 
-@media screen and (min-width: 1501px){
+// @media screen and (min-width: 1501px){
+@media screen and (min-width: 1020px){
     .nav-link {
        color: $light-grey;
        padding: 5% 0;

@@ -1,7 +1,9 @@
 @import '../../design-tokens/tokens.scss';
 
 
-@media screen and (max-width: 800px){
+// @media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
+
     .card-container, .light-container{
         margin: 10% 3% 5%;
         width: 55vw;
@@ -12,7 +14,8 @@
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1150px){
+// @media screen and (min-width: 801px) and (max-width: 1150px){
+    @media screen and (max-width: 800px) and (min-width: 601px){
     .card-container, .light-container{
         margin: 7% 3% 5%;
         width: 30vw;
@@ -23,7 +26,8 @@
     }
 }
 
-@media screen and (min-width: 1151px) and (max-width: 1500px){
+// @media screen and (min-width: 1151px) and (max-width: 1500px){
+    @media screen and (min-width: 801px) and (max-width: 1019px){
         .card-container, .light-container{
             margin: 7% 3% 5%;
             width: 30vw;
@@ -34,7 +38,8 @@
         }
 }
 
-@media screen and (min-width: 1501px){
+// @media screen and (min-width: 1501px){
+    @media screen and (min-width: 1020px){
     .card-container, .light-container{
         margin: 5% 3% 0;
         width: 20vw;

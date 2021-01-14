@@ -1,6 +1,7 @@
 @import '../../design-tokens/tokens.scss';
 
-@media screen and (max-width: 800px){
+// @media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     #tech{
       width: 100vw;
       margin-left: 0;
@@ -20,7 +21,8 @@
       }
   }
   
-  @media screen and (min-width: 801px) and (max-width: 1120px){
+  // @media screen and (min-width: 801px) and (max-width: 1120px){
+  @media screen and (max-width: 800px) and (min-width: 601px){
     #tech{
       width: 100vw;
       margin-left: 0;
@@ -40,8 +42,8 @@
       }
   }
 
-  @media screen and (min-width: 1119px) and (max-width: 1250px){
-    #tech{
+  // @media screen and (min-width: 1119px) and (max-width: 1250px){
+    @media screen and (min-width: 801px) and (max-width: 1019px){    #tech{
       width: 100vw;
       margin-left: 0;
     }
@@ -60,29 +62,30 @@
       }
   }
 
-  @media screen and (min-width: 1251px) and (max-width: 1500px){
-    #tech{
+  // @media screen and (min-width: 1251px) and (max-width: 1500px){
+  // @media screen and (min-width: 1251px) and (max-width: 1500px){
+  //   #tech{
      
-      width: 100vw;
-    }
+  //     width: 100vw;
+  //   }
 
-    .shape{
-        width: 12vw;
-        height: 12vw;
+  //   .shape{
+  //       width: 12vw;
+  //       height: 12vw;
 
-        h3{
-            bottom: 15%;
-            font-size: 1rem;
-        }
-    }
-    #circle img{
-        padding: 10% 24% 2%;
-      }
-  }
+  //       h3{
+  //           bottom: 15%;
+  //           font-size: 1rem;
+  //       }
+  //   }
+  //   #circle img{
+  //       padding: 10% 24% 2%;
+  //     }
+  // }
 
 
 
-  @media screen and (min-width: 1501px){
+  @media screen and (min-width: 1020px){
     #tech{
       margin-left: 20vw;
       width: 80vw;
