@@ -1,25 +1,173 @@
 @import '../../design-tokens/tokens.scss';
 
-// @media screen and (max-width: 1500px){
+
 @media screen and (max-width: 800px){
-    #space{
-      width: 100vw;
-      margin-left: 0;
+  #space{
+    width: 100vw;
+    height: 80%;
+
+    .typewriter{
+      margin: 0 auto;
+      width: 80%;      
     }
+    .title-large-screen{
+      display:none;
+    }
+    .title-small-screen{
+    display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 1019px) and (min-width: 801px){
+  #space{
+    width: 80vw;
+    margin-left:20vw;
+      .typewriter{
+        // top: 50px;
+        margin: 0 auto;
+        width: 70%; 
+    }
+    }
+
+  
+  .title-large-screen{
+      display:none;
+  }
+
+  .title-small-screen{
+      display: block;
+  }
+}
+
+@media screen and (min-width: 1019px){
+  #space{
+    
+    margin-left: 20vw;
+    width: 80vw;
+    height: 60vh;
+  .typewriter{
+    top: 10%;
+    width:70%;
+    margin: 0 auto;
+    
+}
   }
   
-  // @media screen and (min-width: 1501px){
-  @media screen and (min-width: 801px){
-    #space{
-      margin-left: 20vw;
-      width: 80vw;
-    }
+  .title-large-screen{
+      display: block;
+  }
+  .title-small-screen{
+      display: none;
+  }
+}
+
+#space{
+  
+  background: linear-gradient(rgba(250, 128, 114,0.8), $pink), url("../../practise.jpg");
+  padding-bottom: 10%;
+
+  .typewriter{
+    position: relative;
+    padding: 1%;
+    
+  }
+
+@media screen and (max-width: 1300px){
+  padding-bottom: 10%;
+}
+
+@media screen and (min-width: 1301px){
+  padding-bottom: 5%;
+}
+}
+
+.flex-container{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap ;
+
+}
+
+.shape-container{
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ 
+
+  @media screen and (max-width: 800px){
+    width: 30vw;
+    height: 30vw;
+    margin: 5% 5%;
+  }
+
+  @media screen and (max-width: 1000px) and (min-width: 801px){
+    width: 20vw;
+    height: 20vw;
+    margin: 5% 5%;
+  }
+ 
+  @media screen and (min-width: 1001px){
+    width: 15vw;
+    height: 15vw;
+    margin: 5% 5%;
+  }
+
+  @media screen and (min-width: 1500px){
+    width: 10vw;
+    height: 10vw;
+    margin: 5% 5%;
   }
 
 
-#space{
-    height: 60vh;
-    background: linear-gradient(rgba(250, 128, 114,0.8), $pink), url("../../practise.jpg");
-}    
+  transition: .2s ease-in;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+.shape-container >  #square{
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 10% 10%;
+  background-color: $light-grey;
+  opacity: 0.9;
+
+  @media screen and (max-width: 800px){
+    width: 30vw;
+    height: 30vw;
+  }
+
+  @media screen and (max-width: 1000px) and (min-width: 801px){
+    width: 20vw;
+    height: 20vw;
+   
+  }
+ 
+  @media screen and (min-width: 1001px){
+    width: 15vw;
+    height: 15vw;
+  }
+
+  @media screen and (min-width: 1500px){
+    width: 10vw;
+    height: 10vw;
+  }
+
+  h3{
+    color: $dark;
+    bottom: 5%;
+          
+  }
+  img{
+     padding-top: 15%;
+  } 
+
+}
+
+
+
 
 

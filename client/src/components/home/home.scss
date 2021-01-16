@@ -98,6 +98,7 @@
       width: 20vw;
       top: 70%;
       left: 45%;
+
   
     }
     .typewriter{
@@ -127,6 +128,8 @@
       left: 30%;
       width: 28vw;
       height: 28vw;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 
     
     }
@@ -155,6 +158,8 @@
       left: 55%;
       width: 10vw;
       height: 10vw;
+
+
     }
 
     .typewriter{
@@ -209,6 +214,7 @@
       padding: 5px;
       top: 50%;
       background-color: $light-grey;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     .arrow{
       display: none;
@@ -238,6 +244,8 @@
       position: absolute;
       transform: rotate(130deg);
       background-color: $grey;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
     }
   
     // SHAPES
@@ -252,6 +260,8 @@
       position: absolute;
       border-radius: 50%;
       background-color: $light-pink;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
     }
 
     .arrow{
