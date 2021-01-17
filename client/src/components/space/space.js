@@ -5,34 +5,58 @@ import ReverseTitle from '../reverse-title/reverse-title';
 const Space = ({first, second}) => {
 if(first){
     return(<div id="space">
-            <div id="hyper-terminal"> My coding journey started a few years ago when I was offered a position within a tutoring company, where I ended up running coding clubs in and around the brighton primary school circle. I would have to supervise the children and troubleshoot coding errors with them. In the clubs we primarly used P5JS and Scratch. I then went on to teach myself how to use HTML , CSS and Javascript aswell as frameworks such as JQuery, React, Sass, GsapTimeline and more. Once I felt I had a good understanding of front end languages I moved on to experimenting with backend functionality, databases and security measures, as well as learning how to make API calls. I love technology and I am always up for learning more!</div>
-           </div>)
+<h3 className="space-title">My coding journey start here </h3>
+
+    <div className="flex-container">
+    <div className="shape-container">
+        <div className="shape" id="square"><p>I spent my childhood fasinated by computers. IT was one of my favourite subjects in school and I chose to build a website for my personal project. I also loved video games!</p></div>
+    </div>
+    <div className="shape-container">
+        <div className="shape" id="square"><p>I attended a CODE FOR GIRLS workshop at the shazam headquarters in London.</p></div>
+    </div>
+    <div className="shape-container">
+        <div className="shape" id="square"><p>I landed a job as a coding instructor/ tutor where I ran afterschool coding clubs helping troubleshoot problems and teach P5JS as well as scratch.</p></div>
+    </div>
+    <div className="shape-container">
+        <div className="shape" id="square"><p>Now I am freelancing whilst continuing to build my portfolio and knowledge of development.</p></div>
+    </div>
+
+    </div>
+</div>
+    )
     }
 if(second){
     return(<div id="space">
+                <h3 className="space-title"> Some of my qualifications </h3>
                 <div className="flex-container">
                 <div className="shape-container">
-                    <div className="shape" id="square"></div>
+                    <div className="shape" id="square"><h3 className="cert">BA in sound engineering</h3></div>
                 </div>
                 <div className="shape-container">
-                    <div className="shape" id="square"></div>
+                    <div className="shape" id="square"><h3 className="cert">Complete 2020 Web-development Bootcamp</h3></div>
                 </div>
                 <div className="shape-container">
-                    <div className="shape" id="square"></div>
+                    <div className="shape" id="square"><h3 className="cert">Complete React Developer in 2021</h3></div>
                 </div>
-
+                <div className="shape-container">
+                    <div className="shape" id="square"><h3 className="cert">Computer design course(max msp)</h3></div>
                 </div>
+                </div>
+                {/* <h3 className="space-title-large" hidden >My coding journey start here </h3>
+                <img className="space-arrow" hidden src="../../../right-drawn-arrow.png"></img> */}
            </div>)
 }
 
 return(<div id="space">
-            <div className="typewriter title-large-screen">
+            {/* <div className="typewriter title-large-screen">
                 <ReverseTitle dataText={["Some of my top interpersonal skills are ..."]}></ReverseTitle>
             </div>
             <div className="typewriter title-small-screen" hidden>
             <ReverseTitle dataText={["Some of my other skills are..."]}></ReverseTitle>
-            </div>
+            </div> */}
 
+            <h3 className="space-title title-large-screen"> Some of my top interpersonal skills </h3>
+            <h3 className="space-title title-small-screen" hidden> Some of my other skills </h3>
 
 
             <div className="flex-container">

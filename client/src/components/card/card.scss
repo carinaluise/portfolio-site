@@ -2,7 +2,23 @@
 
 
 // @media screen and (max-width: 800px){
-@media screen and (max-width: 600px){
+
+    @media screen and (max-width: 321px) {
+        .card-container, .light-container{
+            margin: 10% 3% 5%;
+            width: 70vw;
+            max-height: 70vh;
+        }
+        .card-content-container{
+            padding: 20% 5%;
+        }
+     }
+
+
+
+
+
+    @media screen and (min-width: 322px) and (max-width: 600px){
 
     .card-container, .light-container{
         margin: 10% 3% 5%;
