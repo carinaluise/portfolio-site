@@ -66,7 +66,7 @@
 #space{
   
   background: linear-gradient(rgba(250, 128, 114,0.8), $pink), url("../../practise.jpg");
-  padding: 2% 0 10%;
+  padding: 5% 0 10%;
   text-align: center;
 
   @media screen and (max-height: 580px){
@@ -100,15 +100,19 @@
     display: none;
   }
 
+@media screen and (max-width: 1050px){
+    padding-bottom: 30%;
+    
+}
   
 
-@media screen and (max-width: 1300px){
-  padding-bottom: 28%;
+@media screen and(min-width: 1051px)and (max-width: 1500px){
+  padding-bottom: 32%;
   
 }
 
-@media screen and (min-width: 1301px){
-  padding-bottom: 5%;
+@media screen and (min-width: 1501px){
+  padding-bottom: 10%;
 }
 }
 
@@ -132,8 +136,8 @@
   }
 
   @media screen and (max-width: 321px) {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
     margin: 10% 10%;
 
     p{
@@ -141,11 +145,22 @@
       padding: 12% 5% 0;
     }
  }
+
+ @media screen and(min-width: 322px) and (max-width: 600px){
+  width: 40vw;
+  height: 40vw;
+  margin: 5% 10%;
+
+  p{
+    font-size: 1.07rem;
+    padding: 12% 5% 0;
+  }
+}
  
 
-  @media screen and(min-width: 322px) and (max-width: 800px){
-    width: 35vw;
-    height: 35vw;
+  @media screen and(min-width: 601px) and (max-width: 900px){
+    width: 30vw;
+    height: 30vw;
     margin: 5% 5%;
 
     p{
@@ -154,32 +169,32 @@
     }
   }
 
-  @media screen and (max-width: 1000px) and (min-width: 801px){
+  @media screen and (max-width: 1300px) and (min-width: 901px){
     width: 25vw;
     height: 25vw;
     margin: 5% 5%;
     p{
       font-size: 1.2rem;
-      padding: 12% 5% 0;
-    }
-  }
- 
-  @media screen and (max-width: 1500px) and (min-width: 1001px){
-    width: 20vw;
-    height: 20vw;
-    margin: 5% 5%;
-    p{
-      font-size: 1.05rem;
       padding: 15% 5% 0;
     }
   }
+ 
+  @media screen and (max-width: 1500px) and (min-width: 1301px){
+    width: 18vw;
+    height: 18vw;
+    margin: 5% 5%;
+    p{
+      font-size: 1.2rem;
+      padding: 10% 5% 0;
+    }
+  }
 
-  @media screen and (min-width: 1301px){
+  @media screen and (min-width: 1501px){
     width: 15vw;
     height: 15vw;
     margin: 5% 2%;
     p{
-      font-size: 1.05rem;
+      font-size: 1.2rem;
       padding: 12% 5% 0;
     }
 
@@ -201,27 +216,34 @@
   margin: 10% 10%;
   background-color: $light-grey;
   opacity: 0.9;
+  
   @media screen and (max-width: 321px) {
-     width: 60vw;
-     height: 60vw;
+     width: 50vw;
+     height: 50vw;
   }
 
-  @media screen and (min-width: 322px) and (max-width: 800px){
-    width: 35vw;
-    height: 35vw;
+
+ @media screen and(min-width: 322px) and (max-width: 600px){
+  width: 40vw;
+  height: 40vw;
+}
+
+  @media screen and (min-width: 601px) and (max-width: 900px){
+    width: 30vw;
+    height: 30vw;
   }
 
-  @media screen and (max-width: 1000px) and (min-width: 801px){
+  @media screen and (max-width: 1300px) and (min-width: 901px){
     width: 25vw;
     height: 25vw;
   }
  
-  @media screen and (max-width: 1300px) and (min-width: 1001px){
-    width: 20vw;
-    height: 20vw;
+  @media screen and (max-width: 1500px) and (min-width: 1301px){
+    width: 18vw;
+    height: 18vw;
   }
 
-  @media screen and (min-width: 1301px){
+  @media screen and (min-width: 1501px){
     width: 15vw;
     height: 15vw;
 
@@ -233,7 +255,7 @@
     padding-top: 10%;
     @media screen and (max-height: 580px) {
       padding: 5% 2% 0;
-      font-size: 1.05rem;
+      font-size: 1rem;
     }
           
   }
@@ -243,7 +265,7 @@
     color: $grey;
     @media screen and (max-height: 580px) {
       padding: 30% 2% 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 
