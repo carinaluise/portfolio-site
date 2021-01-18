@@ -5,7 +5,7 @@ import ReverseTitle from '../reverse-title/reverse-title';
 const Space = ({first, second}) => {
 if(first){
     return(<div id="space">
-<h3 className="space-title">My coding journey start here </h3>
+<h3 className="space-title">My coding journey starts here </h3>
 
     <div className="flex-container">
     <div className="shape-container">

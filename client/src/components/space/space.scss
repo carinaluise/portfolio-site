@@ -135,69 +135,60 @@
     color: $grey;
   }
 
-  @media screen and (max-width: 321px) {
-    width: 50vw;
-    height: 50vw;
-    margin: 10% 10%;
-
-    p{
-      font-size: 1.02rem;
-      padding: 12% 5% 0;
-    }
- }
-
- @media screen and(min-width: 322px) and (max-width: 620px){
-  width: 40vw;
-  height: 40vw;
-  margin: 5% 10%;
-
-  p{
-    font-size: 1rem;
-    padding: 2% 5% 0;
-  }
-}
-
-@media screen and (min-width: 621) and (max-width: 950px){
-  width: 30vw;
-  height: 30vw;
-  margin: 5% 5%;
-  p{
-    font-size: 1.05rem;
-    padding: 12% 5% 0;
-  }
-
-}
- 
-
-  @media screen and(min-width: 951px) and (max-width: 1200px){
-    width: 20vw;
-    height: 20vw;
+  @media screen and (max-width: 600px){
+    width: 35vw;
+    height: 35vw;
     margin: 5% 5%;
 
     p{
-      font-size: 1.07rem;
-      padding: 12% 5% 0;
+      font-size: 1rem;
+      padding: 10% 5% 0;
     }
   }
 
 
- 
-  // @media screen and (max-width: 1300px) and (min-width: 901px){
-  //   width: 25vw;
-  //   height: 25vw;
-  //   margin: 5% 5%;
-  //   p{
-  //     font-size: 1.2rem;
-  //     padding: 15% 5% 0;
-  //   }
-  // }
- 
-  @media screen and (max-width: 1439px) and (min-width: 1201px){
-    width: 18vw;
-    height: 18vw;
+  @media screen and(min-width : 601px) and (max-width: 700px){
+    width: 30vw;
+    height: 30vw;
     margin: 5% 5%;
+
+    p{
+      font-size: 1rem;
+      padding: 10% 5% 0;
+    }
+  }
+
+
+  @media screen and(min-width : 701px) and (max-width: 950px){
+    width: 25vw;
+    height: 25vw;
+    margin: 5% 5%;
+
+    p{
+      font-size: 1rem;
+      padding: 2% 5% 0;
+    }
+  }
+ 
+
+  @media screen and(min-width : 951px) and (max-width: 1080px){
+    width: 25vw;
+    height: 25vw;
+    margin: 5% 5%;
+
     p{
       font-size: 1.2rem;
+      padding: 10% 5% 0;
+    }
+  }
+
+
+  @media screen and (max-width: 1439px) and (min-width: 1081px){
+    width: 20vw;
+    height: 20vw;
+    margin: 5% 2%;
+    p{
+      font-size: 1.15rem;
       padding: 10% 5% 0;
     }
   }
@@ -230,44 +221,41 @@
   background-color: $light-grey;
   opacity: 0.9;
   
-  @media screen and (max-width: 321px) {
-     width: 50vw;
-     height: 50vw;
+
+  @media screen and (max-width: 600px){
+    width: 35vw;
+    height: 35vw;
   }
 
 
- @media screen and(min-width: 322px) and (max-width: 620px){
-  width: 40vw;
-  height: 40vw;
-  margin: 5% 10%;
-}
+  @media screen and(min-width : 601px) and (max-width: 700px){
+    width: 30vw;
+    height: 30vw;
+  }
 
-@media screen and (min-width: 621) and (max-width: 950px){
-  width: 30vw;
-  height: 30vw;
-}
+
+  @media screen and(min-width : 701px) and (max-width: 950px){
+    width: 25vw;
+    height: 25vw;
+  }
  
 
-  @media screen and(min-width: 951px) and (max-width: 1200px){
+  @media screen and(min-width : 951px) and (max-width: 1080px){
+    width: 25vw;
+    height: 25vw;
+  }
+
+
+  @media screen and (max-width: 1439px) and (min-width: 1081px){
     width: 20vw;
     height: 20vw;
-  }
-
-  // @media screen and (max-width: 1200px) and (min-width: 1200px){
-  //   width: 25vw;
-  //   height: 25vw;
-  // }
- 
-  @media screen and (max-width: 1439px) and (min-width: 1201px){
-    width: 18vw;
-    height: 18vw;
   }
 
   @media screen and (min-width: 1440px){
     width: 15vw;
     height: 15vw;
-
   }
+
 
 
   h3{
