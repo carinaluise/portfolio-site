@@ -78,7 +78,7 @@
     padding: 1%;
   }
   .space-title{
-  
+    opacity: 0.8;
     margin: 0 auto;
     width: 40vw;
     color: $grey;
@@ -88,7 +88,6 @@
     text-decoration: underline;
     padding: 2%;
     background-color: $light-grey;
-    border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
     @media screen and (max-height: 580px){
@@ -219,7 +218,7 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   margin: 10% 10%;
   background-color: $light-grey;
-  opacity: 0.9;
+  opacity: 0.8;
   
 
   @media screen and (max-width: 600px){
