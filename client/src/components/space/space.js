@@ -5,7 +5,7 @@ import ReverseTitle from '../reverse-title/reverse-title';
 const Space = ({first, second}) => {
 if(first){
     return(<div id="space">
-<h3 className="space-title">My coding journey starts here </h3>
+{/* <h3 className="space-title">My coding journey starts here </h3>
 
     <div className="flex-container">
     <div className="shape-container">
@@ -21,13 +21,13 @@ if(first){
         <div className="shape" id="square"><p>Now I am freelancing whilst continuing to build my portfolio and knowledge of development.</p></div>
     </div>
 
-    </div>
+    </div> */}
 </div>
     )
     }
 if(second){
     return(<div id="space">
-                <h3 className="space-title"> Some of my qualifications </h3>
+                {/* <h3 className="space-title"> Some of my qualifications </h3>
                 <div className="flex-container">
                 <div className="shape-container">
                     <div className="shape" id="square"><h3 className="cert">BA in sound engineering</h3></div>
@@ -41,7 +41,7 @@ if(second){
                 <div className="shape-container">
                     <div className="shape" id="square"><h3 className="cert">Computer design course(max msp)</h3></div>
                 </div>
-                </div>
+                </div> */}
                 {/* <h3 className="space-title-large" hidden >My coding journey start here </h3>
                 <img className="space-arrow" hidden src="../../../right-drawn-arrow.png"></img> */}
            </div>)
@@ -55,7 +55,7 @@ return(<div id="space">
             <ReverseTitle dataText={["Some of my other skills are..."]}></ReverseTitle>
             </div> */}
 
-            <h3 className="space-title title-large-screen"> Some of my top interpersonal skills </h3>
+            {/* <h3 className="space-title title-large-screen"> Some of my top interpersonal skills </h3>
             <h3 className="space-title title-small-screen" hidden> Some of my other skills </h3>
 
 
@@ -71,8 +71,8 @@ return(<div id="space">
                 </div>
                 <div className="shape-container">
                     <div className="shape" id="square"><img src="../../../adaptation.png"></img><h3>Adaptable</h3></div>
-                </div>
-                    </div>
+                </div> */}
+                    {/* </div> */}
             </div>)
 }
 

@@ -8,6 +8,14 @@ const Portfolio = () => {
     <div className="section-title"><h1>Projects</h1></div>
     <div className="portfolio-card-container">
         <Card 
+        link="https://menu-manager.herokuapp.com"
+        title="Menu Manager"
+        information="Login to admin to update and change the menu"
+        src="../../../menu-manager.png"
+        alt="coding"
+        >       
+        </Card>  
+        <Card 
         link="https://shop-of-strings.herokuapp.com/"
         title="Shop of Strings"
         information="Full E-Commerce website selling all things string."
@@ -49,15 +57,7 @@ const Portfolio = () => {
         src="../../../3D-Card-500.png"
         alt="coding"
         >       
-        </Card>
-        {/* <Card 
-        link="https://carinaluise.github.io/monsters-app/"
-        title="Monsters Roledex"
-        information="Search through the monsters API to find different characters."
-        src="../../../monsters-roledex-500.png"
-        alt="coding"
-        >       
-        </Card>    */}
+        </Card> 
     </div>
     </div>);
 }
